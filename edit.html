@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Article</title>
+
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="font-family: Arial;padding: 20px;background: #f1f1f1;">
+  <div style="width: 100%;" class="header">
+    <ul class="drop-down">
+        <li>
+            <a href="#">
+                 <img class="menu" src="menu.png">
+            </a>
+            <div class="sub-menu">
+                <ul>
+                    <span class=" dropdown-label text-format bold">Main menu</span>
+                    <li><a href="entry.html">main page</a></li>
+                    <li><a href="#">Contents</a></li>
+                    <li><a href="add.html">Add Article</a></li>
+                    <li><a href="random.html">Random article</a></li>
+                    <li><a href="#">About WisdomWare</a></li>
+                    <li><a href="#">Current events</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <span class="contribute text-format">Contribute</span>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Learn to edit</a></li>
+                    <li><a href="#">Community portal</a></li>
+                    <li><a href="#">Recent changes</a></li>
+                    <li><a href="#">Upload file</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+
+    <div class="logo">
+        <img  class="icon" src="earth-grid.png">
+        <div style="text-align: start;">
+            <h1>WisdomWare</h1>
+            <h5>Discover, Learn, Thrive</h5>
+        </div>
+    </div>
+
+    <div class="search">
+        <input class="searchbar" type="text" placeholder="Search WisdomWare">
+        <button class="searchbutton">
+            Search
+        </button>
+    </div>
+
+    <div style="padding-left: 100px;" class="account">
+        <a class="signup" href="#">Create Account</a>
+        <a class="login" href="#">Login</a>
+    </div>
+   </div>
+
+  <div class="container">
+    <div class="left-column">
+      <div class="card">
+        <h1>Edit Article</h1>
+        <form>
+          <input type="text" value="The Royal Victory Hotel" id="title" required>
+        </form>
+
+        <br>
+
+        <button id="addMedia">
+          <span class="material-symbols-outlined">image</span>
+          Add Media
+        </button>
+
+        <div class="formatting-toolbar">
+            <button class="toolbar-button" data-action="bold">
+                <span class="material-symbols-outlined"> format_bold </span>
+            </button>
+            <button class="toolbar-button" data-action="italic">
+                <span class="material-symbols-outlined">format_italic </span>
+            </button>
+            <button class="toolbar-button" data-action="underline">
+                <span class="material-symbols-outlined"> format_underlined </span>
+            </button>
+            <button class="toolbar-button" data-action="strikethrough">
+                <span class="material-symbols-outlined"> strikethrough_s </span>
+            </button>
+            <button class="toolbar-button" data-action="list-bulleted">
+                <span class="material-symbols-outlined"> format_list_bulleted </span>
+            </button>
+            <button class="toolbar-button" data-action="list-numbered">
+                <span class="material-symbols-outlined"> format_list_numbered </span>
+            </button>
+            <button class="toolbar-button" data-action="align-left">
+                <span class="material-symbols-outlined"> format_align_left </span>
+            </button>
+            <button class="toolbar-button" data-action="align-center">
+                <span class="material-symbols-outlined">format_align_center</span>
+            </button>
+            <button class="toolbar-button" data-action="align-right">
+                <span class="material-symbols-outlined">format_align_right</span>
+            </button>
+            <button class="toolbar-button" data-action="align-justify">
+                <span class="material-symbols-outlined"> format_align_justify </span>
+            </button>
+            <button class="toolbar-button">
+              <span class="material-symbols-outlined">link</span>
+            </button class="toolbar-button">
+            <span class="material-symbols-outlined">format_quote</span>
+            </button>
+          </div>
+
+        <form>
+          <textarea id="textbox" required>                  HISTORY
+            It was originally called the Union, and built on the site of the Bear Inn. Local people subscribed to the building project of the new Union, which was to be the principal hotel in the town, built with the fashionable five bays and two and a half storeys surmounted by a very shallow pediment of the period. The first manager was William Liddle who came from the Red Lion in Winchester. It was renamed in 1832 after the Princess Victoria visited it and she herself declared that it would now be called 'The Royal Victoria Hotel'.
+
+            The hotel grew to the rear after the demolition of the factories and workhouses, which were built along the back of the hotel.        
+            The hotel grew further with the building of a ballroom and cocktail bar in 1910. A second entrance from Water Lane was created for the use of people coming from the canal area, with Newport being on the main route to North Wales and Ireland. Many notable people stayed in the hotel over the years, but a fire in 1974 destroyed most of the photographs and memorabilia; however, it is believed that among the names to stay in the hotel were James Hain Friswell, Oliver Lodge and Charles Stewart Parnell.                                                                                The hotel closed in 2014, briefly reopened in 2015 before closing again. In 2017 permission was sought to redevelop the building as flats, retaining the facade while demolishing the rear extension.[1] However work did not proceed as promised with delays blamed on legal issues and the Covid pandemic. The owners obtained further planning permission to develop it as 17 apartments in 2021. It was still undeveloped, shorn up by scaffolding and complained of as an "eyesore" in February 2023 when a director of the property firm told BBC Radio Shropshire the building needed to be demolished, a route not allowed by the local authority Telford and Wrekin District Council, who reportedly did not want the building de-listed and demolished.[2] Subsequently, the owners did not comply with orders to repair by the council who twice intervened to make safe repairs and in December 2023 had decided to compulsorily purchase the building.[3]
+            ARCHITECTURAL 
+           The hotel is in stuccoed stone with a rusticated ground floor and quoins, above which is a frieze and a cornice. At the top is a moulded eaves cornice, and the roof is tiled. There are three storeys and five bays that are separated by pilasters with decorative capitals, and above the middle three bays is a pediment. The central doorway has a Tuscan porch, and the windows are sashes. In front of the hotel are forecourt railings. It is a Grade II Listed Building.[4] 
+          </textarea>
+          <div class="word-count">
+            Word Count: <span id="word-count-value">0</span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="card">
+        <h2>Publish</h2>
+        <div class="button-container">
+          <button class="draft-button">Save Draft</button>
+          <button class="preview-button">Preview</button>
+        </div>
+        <div class="status-container">
+          <span class="material-symbols-outlined">edit_document</span>
+          <span class="status-text">Status:<b>Draft</b> - <a href="#">Edit</a></span>
+        </div>
+          
+        <div class="status-container">
+          <span class="material-symbols-outlined">visibility</span>
+          <span class="status-text">Visibility:<b>Public</b> - <a href="#">Edit</a></span>
+        </div>
+
+        <div class="status-container">
+          <span class="material-symbols-outlined">today</span>
+          <span class="status-text">Publish:<b>Immediately</b> - <a href="#">Edit</a></span>
+        </div>
+
+        <div class="status-container">
+        <span class="material-symbols-outlined">adjust</span>
+          <span class="status-text">SEO:<b>N/A</b> - <a href="#">Check</a></span>
+        </div>
+
+        <div class="action-container">
+          <span class="trash-button">Move to Trash </span>
+          <button class="publish-button">Publish</button>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <h2>Format</h2>
+        
+        <div class="radio-container">
+          <label for="standard">
+            <input type="radio" id="standard" name="layout" value="standard">
+            <span class="radio-option">
+              <span class="material-symbols-outlined">push_pin </span> Standard
+            </span>
+          </label>
+          <label for="aside">
+            <input type="radio" id="aside" name="layout" value="aside">
+            <span class="radio-option">
+              <span class="material-symbols-outlined"> feed </span> Aside
+            </span>
+          </label>
+          <label for="gallery">
+            <input type="radio" id="gallery" name="layout" value="gallery">
+            <span class="radio-option">
+              <span class="material-symbols-outlined"> image </span> Gallery
+            </span>
+          </label>
+        </div>
+
+       </div>
+      </div>
+    
+
+    </div>
+    <div class="footer">
+      <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About WisdomWare</a></li>
+          <li><a href="#">Disclaimers</a></li>
+          <li><a href="#">Contact WisdomWare</a></li>
+          <li><a href="#">Code of Conduct</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Statistics</a></li>
+          <li><a href="#">Cookie Statement</a></li>
+      </ul>
+  </div>
+ 
+</body>
+</html>
